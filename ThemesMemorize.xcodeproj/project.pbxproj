@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		EF4BC91A28488776007DA6FF /* ThemesMemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC91928488776007DA6FF /* ThemesMemorizeApp.swift */; };
-		EF4BC91C28488776007DA6FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC91B28488776007DA6FF /* ContentView.swift */; };
 		EF4BC91E28488777007DA6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4BC91D28488777007DA6FF /* Assets.xcassets */; };
 		EF4BC92128488777007DA6FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4BC92028488777007DA6FF /* Preview Assets.xcassets */; };
+		EF4BC92C284887B5007DA6FF /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC928284887B5007DA6FF /* UIConstants.swift */; };
+		EF4BC92D284887B5007DA6FF /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC929284887B5007DA6FF /* UtilityExtensions.swift */; };
+		EF4BC92E284887B5007DA6FF /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC92A284887B5007DA6FF /* ColorExtensions.swift */; };
+		EF4BC92F284887B5007DA6FF /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC92B284887B5007DA6FF /* ViewExtensions.swift */; };
+		EF4BC933284887CB007DA6FF /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC931284887CB007DA6FF /* MemoryGame.swift */; };
+		EF4BC934284887CB007DA6FF /* GameTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC932284887CB007DA6FF /* GameTheme.swift */; };
+		EF4BC939284887F0007DA6FF /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC937284887F0007DA6FF /* Store.swift */; };
+		EF4BC93A284887F0007DA6FF /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC938284887F0007DA6FF /* EmojiMemoryGame.swift */; };
+		EF4BC93E2848880B007DA6FF /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC93B2848880B007DA6FF /* AspectVGrid.swift */; };
+		EF4BC93F2848880B007DA6FF /* ThemeChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC93C2848880B007DA6FF /* ThemeChooserView.swift */; };
+		EF4BC9402848880B007DA6FF /* ThemeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC93D2848880B007DA6FF /* ThemeEditor.swift */; };
+		EF4BC94228488831007DA6FF /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BC94128488831007DA6FF /* MemoryGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF4BC91628488776007DA6FF /* ThemesMemorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemesMemorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4BC91928488776007DA6FF /* ThemesMemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesMemorizeApp.swift; sourceTree = "<group>"; };
-		EF4BC91B28488776007DA6FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF4BC91D28488777007DA6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4BC92028488777007DA6FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4BC928284887B5007DA6FF /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		EF4BC929284887B5007DA6FF /* UtilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		EF4BC92A284887B5007DA6FF /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		EF4BC92B284887B5007DA6FF /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		EF4BC931284887CB007DA6FF /* MemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		EF4BC932284887CB007DA6FF /* GameTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTheme.swift; sourceTree = "<group>"; };
+		EF4BC937284887F0007DA6FF /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		EF4BC938284887F0007DA6FF /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		EF4BC93B2848880B007DA6FF /* AspectVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		EF4BC93C2848880B007DA6FF /* ThemeChooserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeChooserView.swift; sourceTree = "<group>"; };
+		EF4BC93D2848880B007DA6FF /* ThemeEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeEditor.swift; sourceTree = "<group>"; };
+		EF4BC94128488831007DA6FF /* MemoryGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,10 @@
 		EF4BC91828488776007DA6FF /* ThemesMemorize */ = {
 			isa = PBXGroup;
 			children = (
-				EF4BC91928488776007DA6FF /* ThemesMemorizeApp.swift */,
-				EF4BC91B28488776007DA6FF /* ContentView.swift */,
+				EF4BC936284887E3007DA6FF /* View */,
+				EF4BC935284887DC007DA6FF /* ViewModel */,
+				EF4BC930284887BE007DA6FF /* Model */,
+				EF4BC927284887A4007DA6FF /* Utilities */,
 				EF4BC91D28488777007DA6FF /* Assets.xcassets */,
 				EF4BC91F28488777007DA6FF /* Preview Content */,
 			);
@@ -65,6 +89,47 @@
 				EF4BC92028488777007DA6FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4BC927284887A4007DA6FF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF4BC92A284887B5007DA6FF /* ColorExtensions.swift */,
+				EF4BC928284887B5007DA6FF /* UIConstants.swift */,
+				EF4BC929284887B5007DA6FF /* UtilityExtensions.swift */,
+				EF4BC92B284887B5007DA6FF /* ViewExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EF4BC930284887BE007DA6FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF4BC932284887CB007DA6FF /* GameTheme.swift */,
+				EF4BC931284887CB007DA6FF /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF4BC935284887DC007DA6FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF4BC938284887F0007DA6FF /* EmojiMemoryGame.swift */,
+				EF4BC937284887F0007DA6FF /* Store.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF4BC936284887E3007DA6FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF4BC93B2848880B007DA6FF /* AspectVGrid.swift */,
+				EF4BC94128488831007DA6FF /* MemoryGameView.swift */,
+				EF4BC91928488776007DA6FF /* ThemesMemorizeApp.swift */,
+				EF4BC93C2848880B007DA6FF /* ThemeChooserView.swift */,
+				EF4BC93D2848880B007DA6FF /* ThemeEditor.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4BC91C28488776007DA6FF /* ContentView.swift in Sources */,
+				EF4BC9402848880B007DA6FF /* ThemeEditor.swift in Sources */,
+				EF4BC92E284887B5007DA6FF /* ColorExtensions.swift in Sources */,
 				EF4BC91A28488776007DA6FF /* ThemesMemorizeApp.swift in Sources */,
+				EF4BC939284887F0007DA6FF /* Store.swift in Sources */,
+				EF4BC93E2848880B007DA6FF /* AspectVGrid.swift in Sources */,
+				EF4BC92D284887B5007DA6FF /* UtilityExtensions.swift in Sources */,
+				EF4BC92F284887B5007DA6FF /* ViewExtensions.swift in Sources */,
+				EF4BC92C284887B5007DA6FF /* UIConstants.swift in Sources */,
+				EF4BC94228488831007DA6FF /* MemoryGameView.swift in Sources */,
+				EF4BC933284887CB007DA6FF /* MemoryGame.swift in Sources */,
+				EF4BC934284887CB007DA6FF /* GameTheme.swift in Sources */,
+				EF4BC93F2848880B007DA6FF /* ThemeChooserView.swift in Sources */,
+				EF4BC93A284887F0007DA6FF /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
